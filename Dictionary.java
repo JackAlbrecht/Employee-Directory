@@ -30,7 +30,7 @@ class Dictionary {
       return root;
    }
 
-   // Delete a record from the dictionary
+   // Delete a record from the directory
    public void delete(int key) {
       root = deleteNode(root, key);
    }
@@ -69,7 +69,7 @@ class Dictionary {
       return minv;
    }
 
-   // Modify an existing record in the dictionary
+   // Modify an existing record in the directory
    public void modify(int key) {
       Node node = searchNode(root, key);
       if (node == null) {
@@ -195,6 +195,9 @@ class Dictionary {
          System.out.println("5. List Number of Records");
          System.out.println("6. Exit");
          System.out.println("********************");
+         System.out.println("  /\\_/\\");
+         System.out.println(" ( o.o )");
+         System.out.println("  > ^ <");
       
          System.out.print("Enter your choice: ");
          int choice = scanner.nextInt();
