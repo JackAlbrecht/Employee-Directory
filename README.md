@@ -3,7 +3,7 @@ Employee Directory is a program to demonstrate a Binary Search Tree. This allows
 
 This program uses 2 classes:
 - Node: This is holding the code for a single node in the Binary Search Tree.
-- Dictionary: This is responsible for managing the binary search tree and providing operations to add, delete, modify, and lookup records in the dictionary.
+- Dictionary: This is responsible for managing the Binary Search Tree and providing operations to add, delete, modify, and lookup records in the dictionary.
 
 In this way we are able to create a Binary Search Tree to link nodes and recall data in different orders depending on how we would like to see the data.
 
