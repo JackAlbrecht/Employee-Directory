@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Dictionary {
    private Node root;
 
